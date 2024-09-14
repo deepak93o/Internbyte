@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.About-Us {
+   
+    span {
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-left: 150px ;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-left: 150px;
+        font-size: 1.1rem;
+        margin-right: 200px;
+        
+    }
+    li {
+        margin-left: 160px;
+        font-size: 1.1rem;
+        margin-right: 200px;
+    }
+}
+
+.head {
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    h2 {
+        margin-top: 30px;
+    }
+}
+.mid {
+    background: #e7edf0 ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .what-set-us {
+        padding-top: 30px;
+    }
+}
+
+.join-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.cerified {
+    padding-top: 50px;
+}
+.approval {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 60px;
+}
+.msme {
+   width: 300px;
+   img {
+    width: 100%;
+   }
+}
+.startup-india {
+    width: 300px;
+    img {
+     width: 100%;
+    }
+ }
+
+ .AICTE {
+    width: 250px;
+    img {
+     width: 100%;
+    }
+ }
+
+
+ /* =============================================== Media Query =================================*/
+
+ @media screen and (max-width:500px) {
+    .About-Us {
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-left: 40px ;
+            margin-bottom: 20px;
+        }
+    
+        p {
+            margin-left: 40px;
+            font-size: 0.8rem;
+            margin-right: 30px;
+        }
+        li {
+            margin-left: 45px;
+            font-size: 0.8rem;
+            margin-right: 30px;
+        }
+    }
+    .head {
+        padding-top: 30px ;
+        padding-bottom:30px;
+        h2 {
+            margin-top: 30px;
+        }
+    }
+    .mid {
+        background: #e7edf0 ;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+        .what-set-us {
+            padding-top: 30px;
+        }
+    }
+    
+    .join-us {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+    }
+    .cerified {
+        padding-top: 30px;
+    }
+    .approval {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        gap: 35px;
+    }
+    .msme {
+       width: 250px;
+       img {
+        width: 100%;
+       }
+    }
+    .startup-india {
+        width: 250px;
+        img {
+         width: 100%;
+        }
+     }
+    
+     .AICTE {
+        width: 200px;
+        img {
+         width: 100%;
+        }
+     }
+
+ }

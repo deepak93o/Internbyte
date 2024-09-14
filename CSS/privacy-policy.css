@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.About-Us {
+   
+    span {
+        font-weight: bold;
+    }
+    .tc {
+        font-size: 2.5rem;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+        margin: 0;
+    }
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 150px ;
+        margin-bottom: 20px;
+        padding-top: 30px;
+        color: black;
+    }
+
+    p {
+        margin-left: 150px;
+        font-size: 1.1rem;
+        margin-right: 200px;
+    }
+    li {
+        
+        margin-left: 160px;
+        font-size: 1.1rem;
+        margin-right: 200px;
+    }
+}
+
+.head {
+    background: #ebeef5;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+
+    h2 {
+        margin-top: 30px;
+    }
+}
+
+
+.join-us {
+    padding-bottom: 50px;
+    
+}
+
+
+ /* =============================================== Terms and Conditions =================================*/
+.new_footer_area {
+    background: #cacaca3b;
+}
+
+
+.new_footer_top {
+    
+    position: relative;
+    overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #0a0b0e;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #0056b3;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #0056b3;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #0056b3;
+}
+
+.f_social_icon .fa-telegram:hover {
+    background: #2CA5E0;
+    border-color: #2CA5E0;
+    color: white;
+}
+.f_social_icon .fa-youtube:hover {
+    background: #ff004c;
+    border-color: #ff004c;
+    color: white;
+}
+.f_social_icon .fa-linkedin:hover {
+    background: #598cfb;
+    border-color: #598cfb;
+    color: white;
+}
+.f_social_icon .fa-instagram:hover {
+    background: #f517a4;
+    border-color: #f517a4;
+    color: white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+    padding-top: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    height: 100px;
+    background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+}
+
+
+ @media screen and (max-width:500px) {
+    .About-Us {
+        .tc {
+            font-size: 1.5rem;
+        }
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-left: 40px ;
+            padding-top: 15px;
+        }
+    
+        p {
+            margin-left: 40px;
+            font-size: 0.8rem;
+            margin-right: 30px;
+        }
+        li {
+            margin-left: 45px;
+            font-size: 0.8rem;
+            margin-right: 30px;
+        }
+    }
+    .head {
+        padding-bottom:30px;
+        h2 {
+            margin-top: 30px;
+        }
+    }
+    
+    .join-us {
+        padding-bottom: 40px;
+        
+    }
+   
+     .footer_bottom .row {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        p{
+            text-align: center;
+        }
+     }
+
+     .new_footer_top .f-title {
+        margin-bottom: 15px;
+    }
+ }

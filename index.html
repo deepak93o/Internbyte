@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <link rel="stylesheet" href="CSS/about-us.css">
+  <link rel="shortcut icon" type="image/png" href="Imgs/Logos/Logo_internByte_WithoutBG.svg">
+  <script src="https://kit.fontawesome.com/75d5ba753f.js" crossorigin="anonymous"></script>
+  <title>Intern Byte</title>
+</head>
+
+<body>
+  <!-------------------------------------------- Navbar --------------------------------------------->
+
+  <nav class="navbar" >
+    <span class="navbar-toggle" id="js-navbar-toggle">
+      <i class="fas fa-bars"></i>
+    </span>
+    <a href="index.html"><img src="Imgs/Logos/Logo_InternByte.svg" alt="Logo" class="logo" style="height: 50px;"></a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#home" class="nav-links" onclick="showHome()">Home</a>
+      </li>
+      <li>
+        <a href="#we-provides" class="nav-links">Internships</a>
+      </li>
+      <li>
+        <a href="#course" class="nav-links">Courses</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links" onclick="showAbout()">About Us</a>
+      </li>
+      <li>
+        <a href="#Contact-Us" class="nav-links">Contact Us</a>
+      </li>
+      <li>
+        <a href="Verification.html" class="nav-links">Verify</a>
+      </li>
+      <button class="button-90" role="button" id="Verify">Register</button>
+    </ul>
+  </nav>
+
+
+  <!----------------------------------------Image Slider...---------------------------------------->
+
+<div class="home" id="home">
+  <div id="autoImageSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imgs/Images/image (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h2>Web Development Internships</h2>
+          <p>Gain real-world experience with our hands-on internships</p>
+          <button class="button-90" role="button">Apply</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imgs/Images/img5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h2>Cybersecurity Internships</h2>
+          <p>Secure your future with our top-notch training programs</p>
+          <button class="button-90" role="button">Apply</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imgs/Images/img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h2>Data Science Internships</h2>
+          <p>Analyze, innovate, and lead with our data-driven internships</p>
+          <button class="button-90" role="button">Apply</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#autoImageSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#autoImageSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!------------------------------------------------ Who we are -------------------------------------------------->
+  <section id="who-we-are">
+    <div class="container">
+      <h1 class="title">Who We Are</h1>
+      <div class="line">
+        <P class="c2">At <span class="c3">Intern Byte, </span>we believe that hands-on experience is the key to
+          mastering any field. That’s why we provide more than just internships—we offer a unique opportunity to work on
+          real-world projects as part of a team, ensuring that you gain practical skills that go beyond the classroom.
+          Whether you’re passionate about web development, cybersecurity, app development, data science, or other
+          emerging fields, Intern Byte is here to bridge the gap between education and industry.
+        </P><br>
+        <P class="c2">Our goal is to empower the next generation of tech professionals by offering a platform where you
+          can learn, innovate, and grow with the guidance of experienced mentors. Join us to kickstart your career with
+          confidence and competence.</P>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------We Provides------------------------------------------------->
+
+  <section id="we-provides">
+    <div class="container">
+      <h1 class="title">Transforming <span class="blue">Remote Learning</span> into Real-World Success</h1>
+      <p class="provide">What We Provide?</p>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Web Development (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Java Programming (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">UI/UX (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">C++ (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Data Science (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Artificial Intelligence (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Python Development (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href=""><img src="Imgs/Images/Artificial Intelligence.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Application Development (1 Month)</h5>
+              <p class="card-text">
+                <img src="Imgs/Logos/Logo_internByte_WithoutBG.svg" class="icon" alt="logo">Internship Program
+                <strong class="price">RS. 99.00/-</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-----------------------------------------------Contact-Us-------------------------------------------->
+
+  <div class="company" id="Contact-Us">
+    <div class="company-info">
+      <h1>More Information</h1>
+      <br>
+      <strong>Address:</strong>
+      <p>Haldwani, Uttarakhand, India</p>
+      <strong>Phone: </strong>
+      <p>+91__________</p>
+      <strong>Email: </strong>
+      <p>support@internbyte.com</p>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="contact">
+      <h1>Get in Touch</h1>
+      <form class="form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <input type="number" id="number" placeholder="Phone Number" required>
+        <textarea id="mssg" placeholder="Enter your message" required></textarea>
+        
+          <button class="button-90" role="button" id="submit">Submit</button>
+      
+      </form>
+    </div>
+  </div>
+</div>
+
+
+   <!---------------------------------------------------- About-Us -------------------------------------->
+<div class="About-Us" id="about" style="display: none;">
+    <div class="head">
+      <div class="we">
+        <h2>About Us</h2>
+        <p class="animate-text">
+          Welcome to Intern Byte, where education meets opportunity. We are a dedicated platform with a mission to bridge the gap between students and the professional world by offering affordable internships and skill-building resources. Our goal is to empower the next generation of professionals with the knowledge, experience, and credentials they need to succeed in today’s competitive landscape.
+        </p>
+      </div>
+      <div class="our-mission">
+        <h2>Our Mission</h2>
+        <p class="animate-text">
+          At <span>Intern Byte</span>, we believe that every student deserves access to high-quality learning and real-world experience, regardless of their financial situation. Our mission is to provide affordable internships and skill development opportunities that prepare students for their future careers. Whether you're a high school student exploring your options, a college student seeking practical experience, or a recent graduate ready to step into the workforce, <span>Intern Byte</span> is here to support your journey.
+        </p>
+      </div>
+      <div class="who-we-serve">
+        <h2>Who We Serve?</h2>
+        <p class="animate-text">Our platform is designed for a diverse audience, including:</p>
+        <p class="animate-text">
+          <li>12th-grade students preparing for higher education or career paths.</li>
+          <li>College students pursuing degrees in various fields.</li>
+          <li>Freshers and recent graduates looking to gain experience and enhance their resumes.</li>
+          <li>Anyone eager to learn new skills, explore career options, and achieve their professional goals.</li>
+        </p>
+      </div>
+    </div>
+    <div class="mid">
+      <div class="we-offers">
+        <h2>What We Offer</h2>
+        <p class="animate-text"><span>Intern Byte</span> is more than just an internship platform. We offer a comprehensive suite of services to support your educational and career development:</p>
+        <li><Strong>Internship Listing: </Strong>Explore a wide range of internships across various industries, including opportunities provided directly by <span>Intern Byte</span> and our trusted partners.</li>
+        <li><strong>Affordable Internships: </strong>Gain valuable experience without breaking the bank. Our internships are designed to be accessible and cost-effective.</li>
+        <li><strong>Study Resources: </strong>Access curated study materials, including articles, guides, and tutorials, tailored to help you succeed academically and professionally.</li>
+        <li><strong>Video Content: </strong>Learn from experts through our video library, featuring content on everything from technical skills to career advice.</li>
+        <li><strong>Career Advice: </strong>Receive guidance on career planning, resume building, interview preparation, and more.</li>
+        <li><strong>Government-Approved Certification: </strong>Upon completing internships and courses with <span>Intern Byte</span>, you’ll earn a government-approved certificate that adds significant value to your resume.</li>
+      </div>
+      <div class="what-set-us">
+        <h2>What Set Us Apart</h2>
+        <p class="animate-text"><span>Intern Byte</span> stands out from platforms by offering:</p>
+        <li><strong>Government-Certified Certificates: </strong>Our certifications are recognized and approved by the government, adding credibility to your achievements.</li>
+        <li><strong>High-Quality Content and Resources: </strong>We pride ourselves on delivering top-notch learning materials and practical resources that are relevant to today’s job market.</li>
+        <li><strong>Real-World Experience: </strong>Our internships provide hands-on experience, allowing you to apply your skills in real-world scenarios.</li>
+        <li><strong>Project-Based Learning: </strong>Engage in project-making opportunities that not only enhance your learning but also give you tangible outcomes to showcase in your portfolio.</li>
+      </div>
+    </div>
+    <div class="join-us">
+      <div class="join">
+        <h2>Join Us on Your Journey</h2>
+      <p class="animate-text">At <span>Intern Byte</span>, we are committed to helping you reach your full potential. Whether you’re just starting out or looking to advance your career, our platform is here to provide the support, resources, and opportunities you need to succeed. Join us today and take the first step towards a brighter future.</p>
+    </div>
+    <div class="cerified">
+      <h2>
+        We Are Approved By:
+      </h2>
+      <div class="approval">
+        
+        <div class="msme">
+          <img src="Imgs/Approval Logos/MSME.webp" alt="MSME">
+        </div>
+        <div class="startup-india">
+          <img src="Imgs/Approval Logos/Startup-Indiapng.webp" alt="MSME">
+        </div>
+        <div class="AICTE">
+          <img src="Imgs/Approval Logos/AICTE-Logo.webp" alt="MSME">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!------------------------------------------------ Footer ------------------------------------------->
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="Imgs/Logos/Footer_logo.jpg" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p>Join us and kickstart your career with meaningful internships!</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="privacy policy.html">Privacy</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="Verification.html">Verification</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" onclick="showAbout()">About us</a></li>
+                <li><a href="term-&-conditions.html">Term & Conditions</a></li>
+                <li><a href="#">Apply</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="email" placeholder="Email Address" required>
+                  <button><i class="fab fa-telegram-plane"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2024, All Right Reserved Designed by <a href="index.html">Intern Byte</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!--Cookies--
+    <div class="cookie-banner">
+      <div class="cookie-banner_frame">
+        <p class="cookie-banner_text">
+          This website uses cookies to improve your experience and personalize content. By continuing to use this site, you agree to our use of cookies.
+        </p>
+        <div class="cookie-banner_controls">
+          <button class="control-button primary">Accept</button>
+          <button class="control-button">Decline</button>
+        </div>
+      </div>
+    </div>
+  -->
+  <!--------------------------------------------Script---------------------------------------------->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/Scripts/menubar.js"></script>
+  <script src="JS/Scripts/cookies.js"></script>
+  <script src="JS/Scripts/about-us.js"></script>
+  <script src="JS/Scripts/inspec.js"></script>
+</body>
+</html>
